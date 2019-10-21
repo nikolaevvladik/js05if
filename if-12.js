@@ -1,9 +1,6 @@
-//TODO: Впишите имя функции из задания вместо ...
-//TODO: Добавьте правильные параметры
-//TODO: Напишите функцию
-
 function digitName(n){
 	name = 'ERROR'
+
 	switch(n) {
 		case 0:
 			name = 'ZERO'
@@ -36,6 +33,7 @@ function digitName(n){
 			name = 'NINE'
 			break
 	}
+
 	return name
 }
 

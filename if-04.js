@@ -1,16 +1,18 @@
+var m = Math
+
 function f(a, b, c, d){
 	var min = null
 	var max = null
 
-	if (Math.abs(a) < Math.abs(b))
-		min = Math.abs(a)
+	if (m.abs(a) < m.abs(b))
+		min = m.abs(a)
 	else
-		min = Math.abs(b)
+		min = m.abs(b)
 
-	if (Math.abs(c) > Math.abs(d))
-		max = Math.abs(c)
+	if (m.abs(c) > m.abs(d))
+		max = m.abs(c)
 	else
-		max = Math.abs(d)
+		max = m.abs(d)
 	
 	if (max > min)
 		return max
