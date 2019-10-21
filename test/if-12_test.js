@@ -1,14 +1,11 @@
-const f = require('../if-02.js');
+const f = require('../if-12.js');
 
-QUnit.test("ЗАДАЧА 02. f(a,b,c,d)=max{min{a,b}, min{c,d}}", 
-  function(assert){
-	assert.deepEqual(f(1,2,3,4), 3, "Не выполнено f(1,2,3,4) === max {1,3} === 3");
-	assert.deepEqual(f(1,2,4,3), 3, "Не выполнено f(1,2,4,3) === max {1,3} === 3");
-	assert.deepEqual(f(1,2,4,4), 4, "Не выполнено f(1,2,4,4) === max {1,4} === 4");
-	assert.deepEqual(f(-1,-2,-3,-4),-2, "Не выполнено f(-1,-2,-3,-4) === max {-2,-4} === -2");
-	assert.deepEqual(f(-2,-1,-3,-4),-2, "Не выполнено f(-2,-1,-3,-4) === max {-2,-4} === -2");
-	assert.deepEqual(f(-2,-2,-3,-4),-2, "Не выполнено f(-2,-2,-3,-4) === max {-2,-4} === -2");
-	assert.deepEqual(f(4,4,4,4), 4, "Не выполнено f(4,4,4,4) === max {4,4} === 4");
-	assert.deepEqual(f(-1,5,-1,5), -1, "Не выполнено f(-1,5,-1,5) === max {-1,-1} === -1");
-  }
+QUnit.test("ЗАДАЧА 12. digitName(n)=N in English", 
+	function(assert){
+		assert.deepEqual(f(0), "ZERO", "Не выполнено digitName(0) === ZERO");
+		assert.deepEqual(f(5), "FIVE", "Не выполнено digitName(5) === FIVE");
+		assert.deepEqual(f(9), "NINE", "Не выполнено digitName(9) === NINE");
+		assert.deepEqual(f(10), "ERROR", "Не выполнено digitName(10) === ERROR");
+		assert.deepEqual(f(-1), "ERROR", "Не выполнено digitName(-1) === ERROR");
+	}
 );

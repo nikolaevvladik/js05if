@@ -12,14 +12,10 @@ function f(a, b, c, d){
 	else
 		max = Math.abs(d)
 	
-	console.log(max)
-	console.log(min)
 	if (max > min)
 		return max
 	else
 		return min
 }
-
-console.log(f(5, 2, 3,-4))
 
 module.exports = f;

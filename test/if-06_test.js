@@ -1,4 +1,4 @@
-const f = require('../if-03.js');
+const f = require('../if-06.js');
 
 QUnit.test("ЗАДАЧА 03. f(a,b,c,d)=min{max{a,b}, max{c,d}}", 
   function(assert){

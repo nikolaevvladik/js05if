@@ -31,6 +31,4 @@ function S(x1, y1, x2, y2, x3, y3){
 	return false
 }
 
-// console.log(S(1, 0, 0, 3, 1, 0))
-
 module.exports = S;
