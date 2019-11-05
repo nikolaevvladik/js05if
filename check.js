@@ -1,3 +1,3 @@
-var f = require('./if-x1.js');
+var MonthName = require('./if-x3.js');
 
-console.log(f(1,2,3,4));    
+console.log(MonthName(0));    
