@@ -25,8 +25,4 @@ function Y4(x1, y1, x2, y2, x3, y3){
     }
 }
 
-function f(x1, y1, x2, y2, x3, y3){
-    return X4(x1, y1, x2, y2, x3, y3) + " " + Y4(x1, y1, x2, y2, x3, y3);
-}
-
-module.exports = f;
+module.exports = [X4, Y4];
