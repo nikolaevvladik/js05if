@@ -1,39 +1,39 @@
 function digitName(n){
-	name = 'ERROR'
+	name = 'ERROR';
 
 	switch(n) {
 		case 0:
-			name = 'ZERO'
-			break
+			name = 'ZERO';
+			break;
 		case 1:
-			name = 'ONE'
-			break
+			name = 'ONE';
+			break;
 		case 2:
-			name = 'TWO'
-			break
+			name = 'TWO';
+			break;
 		case 3:
-			name = 'THREE'
-			break
+			name = 'THREE';
+			break;
 		case 4:
-			name = 'FOUR'
-			break
+			name = 'FOUR';
+			break;
 		case 5:
-			name = 'FIVE'
-			break
+			name = 'FIVE';
+			break;
 		case 6:
-			name = 'SIX'
-			break
+			name = 'SIX';
+			break;
 		case 7:
-			name = 'SEVEN'
-			break
+			name = 'SEVEN';
+			break;
 		case 8:
-			name = 'EIGHT'
-			break
+			name = 'EIGHT';
+			break;
 		case 9:
-			name = 'NINE'
-			break
+			name = 'NINE';
+			break;
 	}
-	return name
+	return name;
 }
 
 module.exports = digitName;

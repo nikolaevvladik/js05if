@@ -1,23 +1,23 @@
-var m = Math
+var m = Math;
 
 function f(a, b, c, d){
-	var min = null
-	var max = null
+	var min = null;
+	var max = null;
 
 	if (m.abs(a) < m.abs(b))
-		min = m.abs(a)
+		min = m.abs(a);
 	else
-		min = m.abs(b)
+		min = m.abs(b);
 
 	if (m.abs(c) > m.abs(d))
-		max = m.abs(c)
+		max = m.abs(c);
 	else
-		max = m.abs(d)
+		max = m.abs(d);
 	
 	if (max > min)
-		return max
+		return max;
 	else
-		return min
+		return min;
 }
 
 module.exports = f;
