@@ -11,7 +11,7 @@ function f(x1,y1,x2,y2,x3,y3) {
 	if (Math.pow(c, 2) < Math.pow(a, 2) + Math.pow(b, 2)) {
 		S = (a * b) / 2;
 	}
-	 return S;
+	return S;
 }
 
 module.exports = f;
