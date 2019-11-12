@@ -18,6 +18,6 @@ function f(a, b, c, d) {
         f = max;
     else f = min;
 
-    return f;
+     return f;
 }
     module.exports = f;
