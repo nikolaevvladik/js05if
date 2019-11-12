@@ -44,7 +44,7 @@ function MonthName(n){
 		default:return'ошибка!'
 	}
 
- return name;
+return name;
 	}
 
 
